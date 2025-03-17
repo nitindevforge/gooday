@@ -1,4 +1,4 @@
-package com.gooday
+package com.gooday.main
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

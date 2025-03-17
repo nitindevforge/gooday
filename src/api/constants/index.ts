@@ -1,0 +1,4 @@
+export const AUTH_TOKEN_STORAGE_KEY = "AUTH_TOKEN_STORAGE_KEY";
+export const AUTH_TYPE = "SIGNUP";
+export const DAILY_BRIEFING = 'DAILY_BRIEFING'
+export const DAILY_ALERT = 'DAILY_ALERT'

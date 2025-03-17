@@ -1,3 +1,23 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "include": ["src/**/*.ts", "src/**/*.tsx", "index.tsx"],
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/ui": ["src/ui"],
+      "@app/navigation": ["src/navigation"],
+      "@app/api": ["src/api"],
+      "@app/services": ["src/services"],
+      "@app/modules": ["src/modules"],
+      "@app/components": ["src/components"],
+      "@app/common": ["src/common"],
+      "@app/utils": ["src/utils"],
+      "@app/assets": ["src/assets"],
+      "@app/config": ["src/config"],
+      "underscore": ["lodash"]
+    },
+    "typeRoots": ["node_modules/@types"]
+  }
 }

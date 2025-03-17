@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "12601816445",
+    "project_id": "rosy-ratio-433001-g0",
+    "storage_bucket": "rosy-ratio-433001-g0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12601816445:android:6d3d7366d2cf1eb7a04814",
+        "android_client_info": {
+          "package_name": "com.gooday.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12601816445-1a2o44ta2ur0gg7heuh4u0b8eb7ju9qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooday.main",
+            "certificate_hash": "99d5f52be6fa8044e91104d10c7fca8766b33156"
+          }
+        },
+        {
+          "client_id": "12601816445-p45gqas8ipr8hos5kt5i07cjkr1c6or5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooday.main",
+            "certificate_hash": "daaca769e90045c0314571eb437747a168066c12"
+          }
+        },
+        {
+          "client_id": "12601816445-koi9phuvq3bu3og59c5vadml2bqo33op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNy8EPyYittFGAV-uXNuirVuE8momvCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12601816445-koi9phuvq3bu3og59c5vadml2bqo33op.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "12601816445-2j7fr519g0l8543df67pvfhmvqu0c9qg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gooday.main"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

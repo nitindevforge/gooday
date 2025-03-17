@@ -1,4 +1,4 @@
-package com.gooday
+package com.gooday.main
 
 import android.app.Application
 import com.facebook.react.PackageList
