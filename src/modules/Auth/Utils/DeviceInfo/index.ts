@@ -1,8 +1,8 @@
-import { getMessaging } from "@react-native-firebase/messaging";
+// import { getMessaging } from "@react-native-firebase/messaging";
 import { Platform } from "react-native";
 import { getDeviceName, getUniqueId } from "react-native-device-info";
 export const getDeviceInfo = async () => {
-  const token = await getMessaging().getToken();
+  const token = '';
   const uniqueId = await getUniqueId();
   const deviceName = await getDeviceName();
   return {

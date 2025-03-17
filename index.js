@@ -10,14 +10,13 @@ import messagingApp from '@react-native-firebase/app';
 import notifee from '@notifee/react-native';
 
 // Crashlytics Firebase
-if (!messagingApp.apps.length) {
-  console.log('messagingApp.apps', messagingApp.apps)
-  Crashlytics().setCrashlyticsCollectionEnabled(true);
-}
+// if (!messagingApp.apps.length) {
+//   Crashlytics().setCrashlyticsCollectionEnabled(true);
+// }
 
-messaging().setBackgroundMessageHandler(async remoteMessage => {
-  console.log('Message handled in the background!', remoteMessage);
-});
+// messaging().setBackgroundMessageHandler(async remoteMessage => {
+//   console.log('Message handled in the background!', remoteMessage);
+// });
 notifee.onBackgroundEvent(async ({ type, detail }) => {
   const { notification, pressAction } = detail;
   switch (type) {

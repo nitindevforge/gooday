@@ -104,5 +104,5 @@ module.exports = {
     },
   },
   plugins: [],
-  corePlugins: require("tailwind-rn/unsupported-core-plugins"),
+  corePlugins: require('tailwind-rn/unsupported-core-plugins')
 };

@@ -42,7 +42,7 @@ import GetLocation from "react-native-get-location";
 import Purchases from "react-native-purchases";
 import { checkNotifications } from "react-native-permissions";
 import { useCalendar, useOpenEventModalById, useUserBooking } from "@app/common";
-import messaging from "@react-native-firebase/messaging";
+// import messaging from "@react-native-firebase/messaging";
 import notifee, { EventType } from "@notifee/react-native";
 import { MAX_MONTHS, TOTAL_MONTH_BUFFER } from "../../../../modules/Calendar/Components/InfiniteCalendar/constants";
 
@@ -274,16 +274,16 @@ export const NewHomeContainer = () => {
   };
 
   useEffect(() => {
-    messaging().onNotificationOpenedApp(async (remoteMessage) => {
-      const { data } = remoteMessage;
-      if (data?.event) {
-        openEventModalById(data?.event as string, "event");
-      } else if (data?.bookingId) {
-        openEventModalById(data?.bookingId as string, "booking");
-      } else {
-        navigation.navigate("NOTIFICATION");
-      }
-    });
+    // messaging().onNotificationOpenedApp(async (remoteMessage) => {
+    //   const { data } = remoteMessage;
+    //   if (data?.event) {
+    //     openEventModalById(data?.event as string, "event");
+    //   } else if (data?.bookingId) {
+    //     openEventModalById(data?.bookingId as string, "booking");
+    //   } else {
+    //     navigation.navigate("NOTIFICATION");
+    //   }
+    // });
   }, []);
 
   useEffect(() => {
